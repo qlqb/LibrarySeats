@@ -114,7 +114,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="7dp"
                     android:layout_marginTop="62.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox2"
@@ -123,7 +123,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="26dp"
                     android:layout_marginTop="62.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox3"
@@ -132,7 +132,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="62.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox4"
@@ -141,7 +141,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="64dp"
                     android:layout_marginTop="62.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox5"
@@ -150,7 +150,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="83dp"
                     android:layout_marginTop="62.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox6"
@@ -159,7 +159,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="7dp"
                     android:layout_marginTop="97dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox7"
@@ -168,7 +168,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="26dp"
                     android:layout_marginTop="97dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox8"
@@ -177,7 +177,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="97dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox9"
@@ -186,7 +186,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="64dp"
                     android:layout_marginTop="97dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox10"
@@ -195,7 +195,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="83dp"
                     android:layout_marginTop="97dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox11"
@@ -204,7 +204,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="7dp"
                     android:layout_marginTop="129.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox12"
@@ -213,7 +213,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="26dp"
                     android:layout_marginTop="129.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox13"
@@ -222,7 +222,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="129.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox14"
@@ -231,7 +231,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="64dp"
                     android:layout_marginTop="129.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox15"
@@ -240,7 +240,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="83dp"
                     android:layout_marginTop="129.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox16"
@@ -249,7 +249,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="7dp"
                     android:layout_marginTop="164dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox17"
@@ -258,7 +258,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="26dp"
                     android:layout_marginTop="164dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox18"
@@ -267,7 +267,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="164dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox19"
@@ -276,7 +276,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="64dp"
                     android:layout_marginTop="164dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox20"
@@ -285,7 +285,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="83dp"
                     android:layout_marginTop="164dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox21"
@@ -294,7 +294,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="7dp"
                     android:layout_marginTop="196.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox22"
@@ -303,7 +303,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="26dp"
                     android:layout_marginTop="196.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox23"
@@ -312,7 +312,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="196.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox24"
@@ -321,7 +321,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="64dp"
                     android:layout_marginTop="196.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox25"
@@ -330,7 +330,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="83dp"
                     android:layout_marginTop="196.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox26"
@@ -339,7 +339,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="7dp"
                     android:layout_marginTop="231.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox27"
@@ -348,7 +348,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="26dp"
                     android:layout_marginTop="231.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox28"
@@ -357,7 +357,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="231.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox29"
@@ -366,7 +366,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="64dp"
                     android:layout_marginTop="231.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox30"
@@ -375,7 +375,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="83dp"
                     android:layout_marginTop="231.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox31"
@@ -384,7 +384,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="7dp"
                     android:layout_marginTop="263.9dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox32"
@@ -393,7 +393,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="26dp"
                     android:layout_marginTop="263.9dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox33"
@@ -402,7 +402,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="263.9dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox34"
@@ -411,7 +411,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="64dp"
                     android:layout_marginTop="263.9dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox35"
@@ -420,7 +420,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="83dp"
                     android:layout_marginTop="263.9dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox36"
@@ -429,7 +429,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="7dp"
                     android:layout_marginTop="298.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox37"
@@ -438,7 +438,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="26dp"
                     android:layout_marginTop="298.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox38"
@@ -447,7 +447,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="298.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox39"
@@ -456,7 +456,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="64dp"
                     android:layout_marginTop="298.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox40"
@@ -465,7 +465,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="83dp"
                     android:layout_marginTop="298.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox41"
@@ -474,7 +474,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="7dp"
                     android:layout_marginTop="331.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox42"
@@ -483,7 +483,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="26dp"
                     android:layout_marginTop="331.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox43"
@@ -492,7 +492,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="331.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox44"
@@ -501,7 +501,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="64dp"
                     android:layout_marginTop="331.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox45"
@@ -510,7 +510,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="83dp"
                     android:layout_marginTop="331.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox46"
@@ -519,7 +519,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="183dp"
                     android:layout_marginTop="52.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox47"
@@ -528,7 +528,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="183dp"
                     android:layout_marginTop="76.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox48"
@@ -537,7 +537,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="183dp"
                     android:layout_marginTop="100.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox49"
@@ -546,7 +546,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="183dp"
                     android:layout_marginTop="124.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox50"
@@ -555,7 +555,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="183dp"
                     android:layout_marginTop="148.8dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox51"
@@ -564,7 +564,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="249dp"
                     android:layout_marginTop="173.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox52"
@@ -573,7 +573,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="268.7dp"
                     android:layout_marginTop="173.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox53"
@@ -582,7 +582,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="287dp"
                     android:layout_marginTop="173.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox54"
@@ -591,7 +591,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="305.9dp"
                     android:layout_marginTop="173.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox55"
@@ -600,7 +600,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="353dp"
                     android:layout_marginTop="173.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox56"
@@ -609,7 +609,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="372dp"
                     android:layout_marginTop="173.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox57"
@@ -618,7 +618,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="391dp"
                     android:layout_marginTop="173.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox58"
@@ -627,7 +627,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="410dp"
                     android:layout_marginTop="173.6dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox59"
@@ -636,7 +636,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="177dp"
                     android:layout_marginTop="226.3dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox60"
@@ -645,7 +645,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="177dp"
                     android:layout_marginTop="248dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox61"
@@ -654,7 +654,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="177dp"
                     android:layout_marginTop="271.7dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox62"
@@ -663,7 +663,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="177dp"
                     android:layout_marginTop="295.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox63"
@@ -672,7 +672,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="211dp"
                     android:layout_marginTop="226.3dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox64"
@@ -681,7 +681,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="211dp"
                     android:layout_marginTop="248dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox65"
@@ -690,7 +690,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="211dp"
                     android:layout_marginTop="271.7dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox66"
@@ -699,7 +699,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="211dp"
                     android:layout_marginTop="295.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox67"
@@ -708,7 +708,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="242.8dp"
                     android:layout_marginTop="226.3dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox68"
@@ -717,7 +717,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="242.8dp"
                     android:layout_marginTop="248dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox69"
@@ -726,7 +726,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="242.8dp"
                     android:layout_marginTop="271.7dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox70"
@@ -735,7 +735,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="242.8dp"
                     android:layout_marginTop="295.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox71"
@@ -744,7 +744,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="276.7dp"
                     android:layout_marginTop="226.3dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox72"
@@ -753,7 +753,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="276.7dp"
                     android:layout_marginTop="248dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox73"
@@ -762,7 +762,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="276.7dp"
                     android:layout_marginTop="271.7dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox74"
@@ -771,7 +771,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="276.7dp"
                     android:layout_marginTop="295.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox75"
@@ -780,7 +780,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="308.4dp"
                     android:layout_marginTop="226.3dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox76"
@@ -789,7 +789,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="308.4dp"
                     android:layout_marginTop="248dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox77"
@@ -798,7 +798,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="308.4dp"
                     android:layout_marginTop="271.7dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox78"
@@ -807,7 +807,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="308.4dp"
                     android:layout_marginTop="295.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox79"
@@ -816,7 +816,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="342.6dp"
                     android:layout_marginTop="226.3dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox80"
@@ -825,7 +825,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="342.6dp"
                     android:layout_marginTop="248dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox81"
@@ -834,7 +834,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="342.6dp"
                     android:layout_marginTop="271.7dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox82"
@@ -843,7 +843,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="342.6dp"
                     android:layout_marginTop="295.7dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox83"
@@ -852,7 +852,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="374dp"
                     android:layout_marginTop="226.3dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox84"
@@ -861,7 +861,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="374dp"
                     android:layout_marginTop="248dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox85"
@@ -870,7 +870,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="374dp"
                     android:layout_marginTop="271.7dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox86"
@@ -879,7 +879,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="374dp"
                     android:layout_marginTop="295.7dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox87"
@@ -888,7 +888,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="26dp"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox88"
@@ -897,7 +897,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="48.9dp"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox89"
@@ -906,7 +906,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="71dp"
                     android:layout_marginTop="370.3dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox90"
@@ -915,7 +915,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="93.9dp"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox91"
@@ -924,7 +924,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="116.9dp"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox92"
@@ -933,7 +933,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="365.9px"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox93"
@@ -942,7 +942,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="481px"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox94"
@@ -951,7 +951,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="540.9px"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox95"
@@ -960,7 +960,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="601.4px"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox96"
@@ -969,7 +969,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="660.9px"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox97"
@@ -978,7 +978,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="720.4px"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox98"
@@ -987,7 +987,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="780px"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox99"
@@ -996,7 +996,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="882.9px"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox100"
@@ -1005,7 +1005,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="948px"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
                 <View
                     android:id="@+id/seatBox101"
@@ -1014,7 +1014,7 @@
                     android:layout_gravity="top|left"
                     android:layout_marginLeft="1010.9px"
                     android:layout_marginTop="370.5dp"
-                    android:background="#FF0000" />
+                    android:background="#00ff0000" />
 
             </FrameLayout>
 
