@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">LibrarySeats</string>
+    <string name="app_name">DMU도서관 좌석</string>
+    <string name="nfc_auth_time">NFC 인증한 시간 : </string>
+    <string name="close">닫기</string>
 </resources>
