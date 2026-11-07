@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId = "com.keb.libraryseats"
-        minSdk = 36
+        minSdk = 29
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
