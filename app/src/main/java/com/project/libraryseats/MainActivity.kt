@@ -17,10 +17,16 @@ import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.util.Log
+import com.google.firebase.messaging.FirebaseMessaging
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ListenerRegistration
 
 class MainActivity : AppCompatActivity() {
 
     private val channelId = "seat_notification"
+    private var seatListener: ListenerRegistration? = null
 
     private val permissionLauncher =
         registerForActivityResult(
@@ -51,7 +57,102 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.nfcNotificationButton).setOnClickListener {
             showNfcNotification()
         }
-    }
+
+        FirebaseAuth.getInstance().signInAnonymously()
+            .addOnSuccessListener {
+                val uid = it.user?.uid ?: return@addOnSuccessListener
+
+                Log.d("FIREBASE_AUTH", "익명 로그인 성공: $uid")
+
+                FirebaseMessaging.getInstance().token.addOnCompleteListener { task ->
+                    if (!task.isSuccessful) {
+                        Log.w("FCM_TOKEN", "토큰 가져오기 실패", task.exception)
+                        return@addOnCompleteListener
+                    }
+
+                    val token = task.result
+                    Log.d("FCM_TOKEN", token)
+
+                    val userData = hashMapOf(
+                        "studentId" to "student001",
+                        "fcmToken" to token
+                    )
+
+                    FirebaseFirestore.getInstance()
+                        .collection("users")
+                        .document(uid)
+                        .set(userData)
+                        .addOnSuccessListener {
+                            Log.d("FIRESTORE", "FCM 토큰 저장 성공")
+                        }
+                        .addOnFailureListener { e ->
+                            Log.e("FIRESTORE", "FCM 토큰 저장 실패", e)
+                        }
+                }
+            }
+            .addOnFailureListener {
+                Log.e("FIREBASE_AUTH", "익명 로그인 실패", it)
+            }
+
+
+        FirebaseFirestore.getInstance()
+            .collection("seats")
+            .document("A-01")
+            .get()
+            .addOnSuccessListener { document ->
+                if (document.exists()) {
+                    val status = document.getString("status")
+                    val userId = document.getString("userId")
+
+                    Log.d("SEAT_TEST", "좌석: A-01")
+                    Log.d("SEAT_TEST", "상태: $status")
+                    Log.d("SEAT_TEST", "사용자 UID: $userId")
+                } else {
+                    Log.d("SEAT_TEST", "좌석 정보가 없습니다.")
+                }
+            }
+            .addOnFailureListener { e ->
+                Log.e("SEAT_TEST", "좌석 정보 읽기 실패", e)
+            }
+
+
+        seatListener = FirebaseFirestore.getInstance()
+            .collection("seats")
+            .document("A-01")
+            .addSnapshotListener { document, error ->
+                if (error != null) {
+                    Log.e("NFC_EVENT", "좌석 감지 실패", error)
+                    return@addSnapshotListener
+                }
+
+                if (document != null && document.exists()) {
+                    val status = document.getString("status")
+                    val userId = document.getString("userId")
+                    val nfcEvent = document.getBoolean("nfcEvent") ?: false
+                    val currentUid = FirebaseAuth.getInstance().currentUser?.uid
+
+                    Log.d("NFC_EVENT", "좌석 상태: $status, NFC 이벤트: $nfcEvent")
+
+                    val prefs = getSharedPreferences("nfc_notification", MODE_PRIVATE)
+                    val eventHandled = prefs.getBoolean("A-01_handled", false)
+
+                    if (!nfcEvent) {
+                        prefs.edit().putBoolean("A-01_handled", false).apply()
+                    }
+
+                    if (status == "occupied" &&
+                        nfcEvent &&
+                        userId == currentUid &&
+                        !eventHandled
+                    ) {
+                        showNfcNotification()
+                        prefs.edit().putBoolean("A-01_handled", true).apply()
+                        Log.d("NFC_EVENT", "NFC 알림 표시 완료")
+                    }
+                }
+            }
+
+            }
 
     private fun createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -132,5 +233,10 @@ class MainActivity : AppCompatActivity() {
             System.currentTimeMillis() + 30 * 60 * 1000L,
             pendingIntent
         )
+    }
+
+    override fun onDestroy() {
+        seatListener?.remove()
+        super.onDestroy()
     }
 }
