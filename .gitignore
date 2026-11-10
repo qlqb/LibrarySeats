@@ -1,0 +1,55 @@
+# Gradle
+.gradle/
+/build
+build/
+.kotlin/
+
+# Local configuration (SDK path, secrets)
+local.properties
+*.keystore
+*.jks
+keystore.properties
+google-services.json
+
+# Android Studio / IntelliJ
+*.iml
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/deploymentTargetDropDown.xml
+/.idea/appInsightsSettings.xml
+/.idea/other.xml
+/.idea/studiobot.xml
+/.idea/shelf
+/.idea/tasks.xml
+/.idea/dictionaries
+/.idea/httpRequests
+/.idea/sonarlint
+captures/
+
+# Native build
+.externalNativeBuild
+.cxx
+
+# Generated / outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output-metadata.json
+/release
+/debug
+
+# Logs
+*.log
+*.hprof
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

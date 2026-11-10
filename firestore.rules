@@ -1,0 +1,50 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function profileMatches() {
+      return signedIn()
+        && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.studentId == request.resource.data.studentId
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.name == request.resource.data.studentName;
+    }
+
+    match /users/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create, update: if signedIn() && request.auth.uid == uid;
+      allow delete: if false;
+    }
+
+    match /seats/{seatId} {
+      allow read: if signedIn();
+      allow create: if signedIn()
+        && request.resource.data.firebaseUid == request.auth.uid
+        && request.resource.data.studentId is string
+        && request.resource.data.studentName is string
+        && request.resource.data.expiresAt is int
+        && profileMatches();
+      allow update: if signedIn()
+        && request.resource.data.firebaseUid == request.auth.uid
+        && profileMatches()
+        && (resource.data.firebaseUid == request.auth.uid
+            || resource.data.expiresAt <= (request.time.seconds * 1000));
+      allow delete: if signedIn()
+        && (resource.data.firebaseUid == request.auth.uid
+            || resource.data.expiresAt <= (request.time.seconds * 1000));
+    }
+
+    match /activeUsers/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create, update: if signedIn()
+        && request.auth.uid == uid
+        && request.resource.data.studentId is string
+        && request.resource.data.seatId is string;
+      allow delete: if signedIn()
+        && (request.auth.uid == uid
+            || resource.data.expiresAt <= (request.time.seconds * 1000));
+    }
+  }
+}

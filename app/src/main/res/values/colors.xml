@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dmu_navy">#1F3C73</color>
+    <color name="dmu_blue">#2B5CB8</color>
+    <color name="input_border">#CCCCCC</color>
+    <color name="input_border_focused">#2B5CB8</color>
+    <color name="hint_gray">#AAAAAA</color>
+    <color name="text_dark">#222222</color>
+    <color name="use_not_available">#E03535</color>
+</resources>

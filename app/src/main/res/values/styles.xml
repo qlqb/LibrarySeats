@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 테두리 있는 입력칸 -->
+    <style name="DmuInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textColorHint">@color/hint_gray</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 남색 캡슐 버튼 -->
+    <style name="DmuButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="backgroundTint">@color/dmu_navy</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">26dp</item>
+    </style>
+
+    <!-- 테두리만 있는 캡슐 버튼 -->
+    <style name="DmuOutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:textColor">@color/dmu_navy</item>
+        <item name="android:textSize">16sp</item>
+        <item name="strokeColor">@color/dmu_navy</item>
+        <item name="cornerRadius">26dp</item>
+    </style>
+</resources>
