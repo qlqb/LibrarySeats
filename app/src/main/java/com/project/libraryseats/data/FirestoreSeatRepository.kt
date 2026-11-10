@@ -6,11 +6,6 @@ import com.google.firebase.firestore.ListenerRegistration
 import com.project.libraryseats.domain.Reservation
 import com.project.libraryseats.domain.SeatService
 
-/**
- * Firestore is the source of truth for shared seat occupancy.
- * seats/{seatId} stores a reservation; activeUsers/{firebaseUid} indexes
- * the single active reservation owned by that authenticated account.
- */
 class FirestoreSeatRepository(
     private val db: FirebaseFirestore = FirebaseFirestore.getInstance()
 ) {
@@ -82,7 +77,7 @@ class FirestoreSeatRepository(
                 expectedVerification
             )
 
-            // Apply writes only after all transaction reads are complete.
+            // 모든 트랜잭션 읽기가 완료된 후에만 쓰기를 적용
             if (previousRef != null && previousOwnedByCurrentUser) tx.delete(previousRef)
             tx.set(seatRef, reservationMap(result, firebaseUid))
             tx.set(userRef, mapOf(
@@ -111,7 +106,7 @@ class FirestoreSeatRepository(
         }
     }
 
-    /** Expire only the exact reservation generation that scheduled this alarm. */
+    /** 이 알람을 예약한 정확한 예약 생성만 유효하게 함. */
     fun expire(seatId: String, firebaseUid: String, verifiedAt: Long): Task<Boolean> {
         val seatRef = seats.document(seatId)
         val userRef = users.document(firebaseUid)

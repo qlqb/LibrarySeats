@@ -335,4 +335,6 @@ class SeatActivity : AppCompatActivity() {
         const val EXTRA_STUDENT_ID = "extra_student_id"
         const val EXTRA_STUDENT_NAME = "extra_student_name"
     }
+
+
 }
