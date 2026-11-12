@@ -10,6 +10,7 @@ import com.google.firebase.Firebase
 import com.google.firebase.auth.auth
 import com.google.firebase.firestore.firestore
 import com.project.libraryseats.seatstate.LocalSeatStore
+import android.util.Log
 
 /** 로그인 후 화면 (추후 열람실 좌석 화면으로 확장) */
 class HomeActivity : AppCompatActivity() {
@@ -40,15 +41,28 @@ class HomeActivity : AppCompatActivity() {
         val btnOpenSeats = findViewById<com.google.android.material.button.MaterialButton>(R.id.btnOpenSeats)
         btnOpenSeats.isEnabled = false
 
-        Firebase.firestore.collection(AuthRules.USERS_COLLECTION).document(user.uid).get()
+        Firebase.firestore.collection(AuthRules.USERS_COLLECTION)
+            .document(user.uid)
+            .get()
             .addOnSuccessListener { doc ->
+
+                Log.d("HOME_DEBUG", "문서 존재 여부: ${doc.exists()}")
+                Log.d("HOME_DEBUG", "로그인 UID: ${user.uid}")
+                Log.d("HOME_DEBUG", "문서 데이터: ${doc.data}")
+
                 studentName = doc.getString("name") ?: user.displayName
                 studentId = doc.getString("studentId")
-                studentName?.let { tvWelcome.text = getString(R.string.welcome, it) }
-                studentId?.let { tvStudentId.text = getString(R.string.student_info, it) }
-                btnOpenSeats.isEnabled = !studentId.isNullOrBlank() && !studentName.isNullOrBlank()
+
+                btnOpenSeats.isEnabled =
+                    !studentId.isNullOrBlank() &&
+                            !studentName.isNullOrBlank()
+
+                Log.d("HOME_DEBUG", "좌석 버튼 활성화: ${btnOpenSeats.isEnabled}")
             }
-            .addOnFailureListener {
+            .addOnFailureListener { e ->
+
+                Log.e("HOME_DEBUG", "Firestore 사용자 정보 조회 실패", e)
+
                 tvStudentId.text = "사용자 정보를 불러오지 못했습니다."
             }
 
